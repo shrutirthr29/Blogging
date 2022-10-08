@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Dancing+Script&family=Lobster&family=Poppins&family=Raleway:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        #email {
+            border: 2px solid black;
+            width: 30%;
+            padding: 12px 20px;
+            margin-left: 119px;
+            box-sizing: border-box;
+        }
+
+        #pass {
+            border: 2px solid black;
+            width: 30%;
+            padding: 12px 20px;
+            margin-left: 94px;
+            box-sizing: border-box;
+        }
+
+        #conpass {
+            border: 2px solid black;
+            width: 30%;
+            padding: 12px 20px;
+            margin-left: 32px;
+            box-sizing: border-box;
+        }
+
+        .cancelbtn {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            background: linear-gradient(135deg, #042033, #c889e5);
+            padding: 1.2rem 2.5rem;
+            border: none;
+            cursor: pointer;
+            font-size: 19px;
+            border-radius: 31px;
+            color: #cecece;
+            margin-left: 37vw;
+            margin-top: 3vh;
+        }
+        .signupbtn {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            background: linear-gradient(135deg, #042033, #c889e5);
+            padding: 1.2rem 2.5rem;
+            border: none;
+            cursor: pointer;
+            font-size: 19px;
+            border-radius: 31px;
+            color: #cecece;
+            margin-left: 3vw;
+            margin-top: 3vh;
+        }
+        .withoutbtn{
+            margin-left: 520px;
+        }
+        .headings{
+            margin-left: 622px;
+        }
+        .container{
+            margin-top: 164px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headings">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+        </div>
+        <form action="#">
+            <div class="withoutbtn">
+                <div class="qaemail">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" id="email" placeholder="Enter Email" name="email" required>
+                </div>
+                <br>
+        
+                <div class="qapass">
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" id="pass" placeholder="Enter Password" name="psw" required>
+                </div>
+                <br>
+        
+                <div class="qaconpass">
+                    <label for="psw-repeat"><b>Confirm Password</b></label>
+                    <input type="password" id="conpass" placeholder="Confirm Password" name="psw-confirm" required>
+                </div>
+                <br>
+        
+                <div class="check">
+                    <label>
+                        <input type="checkbox" id="remember" checked="checked" name="remember" style="margin-bottom:15px"> Remember
+                        me
+                    </label>
+                </div>
+            </div>
+    
+    
+            <div class="but">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
